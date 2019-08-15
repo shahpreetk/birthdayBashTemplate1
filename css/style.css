@@ -19,6 +19,10 @@ p{
     margin: 0.75rem 0;
 }
 
+.text-primary{
+    color: #d8db1d;
+}
+
 /* NAVIGATION BAR */
 #navbar{
     display: flex;
