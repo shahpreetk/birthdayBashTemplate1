@@ -19,7 +19,16 @@ p{
     margin: 0.75rem 0;
 }
 
-.text-primary{
+h1:hover{
+    color: #fff;
+}
+
+hr{
+    background: #000;
+    height: 10px;
+}
+
+.text-primary:hover{
     color: #d8db1d;
 }
 
@@ -29,11 +38,15 @@ p{
     position: sticky;
     top: 0;
     bottom: 300px;
-    background: #9c294c;
-    color: #fff;
+    background: #a0a0a0;
+    color: #000;
     justify-content: space-between;
     z-index: 1;
     padding: 1rem;
+}
+
+#navbar:hover{
+    background: #9c294c;
 }
 
 #navbar ul{
@@ -43,13 +56,14 @@ p{
 }
 
 #navbar ul li a{
-    color: #fff;
+    color: #000;
     padding: 0.75rem;
     margin: 0 0.25rem;   
 }
 
 #navbar ul li a:hover{
     background: #1a2591;
+    color: #fff;
     border-radius: 5px; 
 }
 
